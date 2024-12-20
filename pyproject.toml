@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "conscompf"
+version = "0.2"
+authors = [
+  { name="Alex Karev", email="karev.as99@gmail.com" },
+]
+description = "Consistency-focused similarity comparison framework for generative large language models"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/alex-karev/conscompf"
+Issues = "https://github.com/alex-karev/conscompf/issues"
+

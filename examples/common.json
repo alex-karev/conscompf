@@ -1,0 +1,50 @@
+{
+  "dataset_name": "alex-karev/llm-comparison", 
+  "subsets": {
+    "comparison": "comparison",
+    "prompts": "prompts",
+    "quantization": "quantization"
+  },
+  "run_benchmark": true,
+  "encoder": "sentence-transformers/all-MiniLM-L12-v2",
+  "batch_size": 32,
+  "downsample": [20, 50],
+  "curated_instructions": {
+    "10, cons=0.95": [
+      36562,
+      28558,
+      36623,
+      9924,
+      47399,
+      35987,
+      18007,
+      10057,
+      39134,
+      39026
+      ],
+    "10, cons=0.73":[
+      49778,
+      4145,
+      28447,
+      42829,
+      5212,
+      47885,
+      47306,
+      40483,
+      25730,
+      31174
+    ],
+    "10, cons=0.53": [
+      8096,
+      15107,
+      41296,
+      6363,
+      41594,
+      31313,
+      41485,
+      25444,
+      26097,
+      29201
+    ]
+  }
+}
