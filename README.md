@@ -2,6 +2,8 @@
 
 Python implementation of ConSCompF - LLM similarity comparison framework that accounts for instruction consistency proposed in the original [paper](#).
 
+![LLM comprarison using ConSCompF](https://github.com/alex-karev/conscompf/blob/97c84359e2f581e2991901734f4a27af710dbeef/assets/screenshot.png)
+
 ## Features
 
 - Generates LLM similarity matrices and compresses them using PCA.
