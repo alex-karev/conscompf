@@ -80,6 +80,8 @@ If you find our work valuable, please cite:
 
 > Accepted for publication in JAIR, but not published yet
 
+The original dataset used during the experiments described in the original paper is available [here](https://huggingface.co/datasets/alex-karev/llm-comparison).
+
 ## Contribution
 
 Feel free to fork this repo and make pull requests.
