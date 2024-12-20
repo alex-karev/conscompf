@@ -14,7 +14,7 @@ Python implementation of ConSCompF - LLM similarity comparison framework that ac
 
 ## Installation
 
-Currently, there is no pckage available on pip. You can build and install it manually:
+Currently, there is no package available on pip. You can build and install it manually:
 
 ```bash
 git clone https://github.com/alex-karev/conscompf
