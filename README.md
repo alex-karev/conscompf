@@ -1,6 +1,6 @@
 # ConSCompF: Consistency-focused Similarity Comparison Framework
 
-Python implementation of ConSCompF - LLM similarity comparison framework that accounts for instruction consistency proposed in the original [paper](#).
+Python implementation of ConSCompF - LLM similarity comparison framework that accounts for instruction consistency proposed in the original [paper](https://doi.org/10.1613/jair.1.17028).
 
 ![LLM comprarison using ConSCompF](https://github.com/alex-karev/conscompf/blob/97c84359e2f581e2991901734f4a27af710dbeef/assets/screenshot.png)
 
@@ -70,15 +70,19 @@ This project is currently contributed by Alexey Karev and Dong Xu from School of
 If you find our work valuable, please cite:
 
 ```
-@misc{karev2024conscompf,
-      title={ConSCompF: Consistency-focused Similarity Comparison Framework for Generative Large Language Models}, 
-      author={Alexey Karev and Dong Xu},
-      year={2024},
-      primaryClass={cs.CL}
+ @article{
+    Karev_Xu_2025, 
+    title={ConSCompF: Consistency-focused Similarity Comparison Framework for Generative Large Language Models}, 
+    volume={82}, 
+    ISSN={1076-9757}, 
+    DOI={10.1613/jair.1.17028},
+    journal={Journal of Artificial Intelligence Research}, 
+    author={Karev, Alexey and Xu, Dong}, 
+    year={2025}, 
+    month=mar, 
+    pages={1325–1347} 
 }
 ```
-
-> Accepted for publication in JAIR, but not published yet
 
 The original dataset used during the experiments described in the original paper is available [here](https://huggingface.co/datasets/alex-karev/llm-comparison).
 
