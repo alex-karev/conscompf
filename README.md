@@ -14,13 +14,10 @@ Python implementation of ConSCompF - LLM similarity comparison framework that ac
 
 ## Installation
 
-Currently, there is no package available on pip. You can build and install it manually:
+The package is available on PyPI:
 
 ```bash
-git clone https://github.com/alex-karev/conscompf
-cd conscompf
-python -m build .
-pip install .
+pip install conscompf
 ```
 
 ## Usage
@@ -61,6 +58,17 @@ For a full list of available functions and arguments use the documentation:
 
 ```bash
 pydoc conscompf.ConSCompF
+```
+
+## Build
+
+You can build and install this package manually:
+
+```bash
+git clone https://github.com/alex-karev/conscompf
+cd conscompf
+python -m build .
+pip install .
 ```
 
 ## Citation
